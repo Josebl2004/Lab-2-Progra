@@ -6,13 +6,12 @@ namespace VariablesExample
     {
         static void Main(string[] args)
         {
-            // Declaración de variables
+    
             int entero;
             double decimalNum;
             string texto;
             bool booleano;
 
-            // Pedir valores por teclado
             Console.Write("Introduce un número entero: ");
             entero = int.Parse(Console.ReadLine());
 
